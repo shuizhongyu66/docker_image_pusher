@@ -10,5 +10,5 @@ redis72:7.2
 redis708:7.0.8
 redis609:6.0.9
 mysql80:8.0
-openjdk8-jdk-alpine:8-jdk-alpine
+openjdk8:8-jdk-alpine
 

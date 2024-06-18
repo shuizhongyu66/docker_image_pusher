@@ -4,8 +4,14 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-redis:7.2
-redis:7.0.8
-redis:6.0.9
-mysql:8.0
-openjdk:8-jdk-alpine
+redis72:7.2
+redis708:7.0.8
+redis609:6.0.9
+mysql80:8.0
+openjdk8-jdk-alpine:8-jdk-alpine
+
+--platform=linux/aarch64 aarch64_redis72:7.2
+--platform=linux/aarch64 aarch64_redis708:7.0.8
+--platform=linux/aarch64 aarch64_redis609:6.0.9
+--platform=linux/aarch64 aarch64_mysql80:8.0
+--platform=linux/aarch64 aarch64_openjdk8-jdk-alpine:8-jdk-alpine

@@ -6,6 +6,6 @@ xhofe/alist:latest
 --platform=linux/arm64 xiaoyaliu/alist
 
 # 新增镜像
-redis72:7.2
-redis708:7.0.8
+redis/72:7.2
+redis/708:7.0.8
 

@@ -5,5 +5,9 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
+# 新增镜像
+redis/708:7.0.8
+redis/609:6.0.9
+
 
 

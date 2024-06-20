@@ -11,8 +11,7 @@ mysql:8.0
 openjdk:8-jdk-alpine
 mongo:4.4.18
 --platform=linux/aarch64 redis:6.0.9
---platform=linux/aarch64 mysql==8.0
---platform=linux/aarch64 mysql==8.0.32
+--platform=linux/aarch64 mysql:8.0
 --platform=linux/aarch64 openjdk:8-jdk-alpine
 --platform=linux/aarch64 nginx:latest
 --platform=linux/aarch64 mongo:4.4.18
